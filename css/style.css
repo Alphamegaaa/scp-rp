@@ -1,0 +1,106 @@
+body{
+	background-color: rgb(190, 190, 190);
+	margin: 0;
+	padding: 0;
+}
+h1, h2{
+	text-align: center;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 340%;
+	margin: 20px;
+}
+header{
+	background-color: rgb(70, 70, 70);
+}
+.seperator{
+	color: white;
+}
+.sign-in{
+	border-radius: 30px;
+	border: none;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px; 
+	background-image: linear-gradient(to right, rgb(153, 13, 3), rgb(99, 9, 2))
+}
+.sign-up{
+	border-radius: 30px;
+	border: none;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px; 
+	background-image: linear-gradient(to right, rgb(153, 13, 3), rgb(99, 9, 2))
+}
+.sign-in:hover{
+	transform: scale(1.05);
+	cursor: pointer;
+	transition: 0.3s;
+}
+.sign-up:hover{
+	transform: scale(1.05);
+	cursor: pointer;
+	transition: 0.3s;
+}
+.preHeader
+{
+	height: 60px;
+	line-height: 60px;
+	vertical-align: middle;
+	box-shadow: 1px 1px 4px 2px rgb(10, 10, 10);
+}
+.preHeader a
+{
+	font-size: 14px;
+	font-weight: 400;
+	padding: 0 20px;
+	transition-duration: 0.2s;
+}
+.preHeader a:hover
+{
+	color: rgb(0, 70, 130);
+}
+.linkContainer
+{
+	float: right;
+	margin-right: 3%;
+}
+.link-text-folder{
+	text-decoration: none;
+	color: black;
+}
+.link-text-folder:hover{
+	color: rgb(30, 190, 40);
+	cursor: pointer;
+	transition: 0.3s;
+}
+.button-continue{
+	border-radius: 30px;
+	border: none;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px; 
+	background-image: linear-gradient(to right, rgb(153, 13, 3), rgb(99, 9, 2));
+	box-shadow: 0.5px 0.5px 2px 1px rgb(40, 40, 40);
+	transform: scale(1.5);
+}
+.button-continue:hover{
+	transform: scale(1.55);
+	transition: 0.3s;
+	cursor: pointer;
+}
+.box-connexion{
+	width: 65%;
+	height: auto;
+	background-color: white;
+	box-shadow: 0.5px 0.5px 2px 1px rgb(90, 90, 90);
+	text-align: center;
+	margin: 0 auto;
+}
+.container-box-connexion{
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-top: 15%;
+}
